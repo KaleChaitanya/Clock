@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap");
+:root {
+  --primary-color: #020617;
+  --secondary-color: #22c55e;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Orbitron", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: xx-large;
+  font-weight: bolder;
+  letter-spacing: 0.5rem;
+  align-items: center;
+}
+.container {
+  margin: 10rem auto;
+  text-align: center;
+  width: 50%;
+  /* background-color: antiquewhite; */
+}
+.container span{
+    display: inline;
+}
